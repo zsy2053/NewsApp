@@ -29,6 +29,13 @@
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.newsfeed.AfterLoginActivity" />
+        </activity>
+        <activity
+            android:name=".AfterLoginActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.newsfeed.MainActivity" />
         </activity>
     </application>

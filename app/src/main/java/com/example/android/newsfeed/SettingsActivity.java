@@ -208,7 +208,7 @@ public class SettingsActivity extends AppCompatActivity {
         }
     }
 
-    // Go back to the MainActivity when up button in action bar is clicked on.
+    // Go back to the AfterLoginActivity when up button in action bar is clicked on.
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
